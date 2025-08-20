@@ -1,0 +1,40 @@
+{
+  "name": "goose-perplexity-mcp",
+  "version": "1.0.0",
+  "description": "A Goose MCP extension for Perplexity AI search integration",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "keywords": [
+    "goose",
+    "extension",
+    "mcp",
+    "perplexity",
+    "ai",
+    "search",
+    "model-context-protocol"
+  ],
+  "author": "Pratyush Gosain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PratzG/goose-perplexity-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PratzG/goose-perplexity-mcp/issues"
+  },
+  "homepage": "https://github.com/PratzG/goose-perplexity-mcp#readme",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "zod": "^3.22.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  }
+}
