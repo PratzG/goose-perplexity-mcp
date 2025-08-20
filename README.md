@@ -29,9 +29,9 @@ cd goose-perplexity-mcp
 npm install
 ```
 
-3. Create a `.env` file with your Perplexity API key:
+3. Create a Perplexity API key to the environment:
 ```bash
-echo "PPLX_API_KEY=your_api_key_here" > .env
+echo "PPLX_API_KEY=your_api_key_here"
 ```
 
 4. Build the extension:
